@@ -30,5 +30,63 @@ body{
     background-image: url(/Developer-Portfolio-N/image/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
+    margin-bottom: 100px;
     
+}
+
+#link-button-two{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg,blueviolet,violet);
+    padding: 5px 20px;
+} 
+#dream-area{
+    display: flex;
+    background-image: url(/Developer-Portfolio-N/image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#exp-area{
+    margin-bottom: 200px;
+}
+#exp-area-box{
+    display: flex;
+    background-image: url(/Developer-Portfolio-N/image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+ 
+}
+.detail-color{
+    color: orange;
+}
+
+#exp-box-one{
+    box-shadow: 10px 7px 40px gray;
+    padding: 10px 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,blueviolet);
+    border-image-slice: 1;
+}
+
+#exp-box-two{
+    box-shadow: 10px 7px 40px gray;
+    padding: 10px 10px;
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   border-radius: 10px;
+   border-left: 7px solid;
+   
+  border-image:linear-gradient(red,orange) ;
+   border-image-slice: 1;
+}
+#footer-copyright{
+    text-align: center;
 }
